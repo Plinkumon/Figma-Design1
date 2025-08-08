@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.page-content {
+    
+      padding: 16px 8px;
+    }
+.nav-right {
+   
+      display: flex;
+     align-items: center;
+  
+    }
+
+    .nav-right a {
+      color: rgb(240, 12, 12);
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .nav-right a:hover {
+      color: #ffcc00;
+    }
+    #cart-icon {
+  color: black;
+  font-size: 24px;
+  padding: 10px;
+}
+.dashed-line {
+  font-family: monospace;
+  letter-spacing: 8px;
+  font-size: 20px;
+  color: rgb(212, 204, 204);
+  width: 100%;
+}
+.color-swatch {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.color-swatch.selected {
+  border: 4px double #000;     /* Double border for selected */
+}
+
+    
